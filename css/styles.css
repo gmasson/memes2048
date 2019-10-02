@@ -15,6 +15,10 @@ a {
 	text-decoration: none !important;
 }
 
+header {
+	padding: 1em;
+}
+
 .heading:after {
 	content: "";
 	display: block;
