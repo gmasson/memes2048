@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Resource-type" content="document">
+	<!-- <link rel="canonical" href="https://www.site.com/"> -->
+	<meta name="Robots" content="all">
+	<meta name="Rating" content="general">
+	<meta name="author" content="Professor Gabriel Masson">
+	<meta name="keywords" content="2048, memes">
+	<title>Memes 2048</title>
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+
+	<!-- Favicon -->
+	<link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+	<!-- Theme Color -->
+	<meta name="theme-color" content="#444">
+
+	<!-- Icons -->
+	<link rel="icon" type="image/png" href="img/icon.png">
+
+	<!-- Manifest -->
+	<link rel="manifest" href="manifest.json">
+
+	<!-- For Apple -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Webstart">
+	<link rel="apple-touch-icon" type="image/png" href="img/icon.png">
+
+	<!-- For Windows -->
+	<meta name="msapplication-TileImage" content="img/icon.png">
+	<meta name="msapplication-TileColor" content="#444">
+
+	<!-- For Social Networks -->
+	<meta property="og:image" content="img/social.jpg">
+	<meta name="twitter:image" content="img/social.jpg">
+
+	<!-- CSS / Styles -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="above-game">
+			<p class="game-intro"><strong>Memes 2048!</strong></p>
+			<a class="restart-button">Zerar</a>
+		</div>
+
+		<div class="game-container">
+			<div class="game-message">
+				<p></p>
+				<div class="lower">
+					<a class="keep-playing-button">Continue</a>
+					<a class="retry-button">Jogar novamente</a>
+				</div>
+			</div>
+
+			<div class="grid-container">
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+					<div class="grid-cell"></div>
+				</div>
+			</div>
+
+			<div class="tile-container">
+
+			</div>
+		</div>
+
+		<br>
+
+		<div class="scores-container">
+			<div class="score-container">0</div>
+			<div class="best-container">0</div>
+		</div>
+		
+		<footer>
+			<hr>
+			<p><a href="https://professorgabrielmasson.com" target="_blank">Professor Gabriel Masson</a></p>
+			<hr>
+
+			<p>Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually similar to Threes by Asher Vollmer.</p>
+		</footer>
+
+	</div>
+
+	<script src="js/bind_polyfill.js"></script>
+	<script src="js/classlist_polyfill.js"></script>
+	<script src="js/animframe_polyfill.js"></script>
+	<script src="js/keyboard_input_manager.js"></script>
+	<script src="js/html_actuator.js"></script>
+	<script src="js/grid.js"></script>
+	<script src="js/tile.js"></script>
+	<script src="js/local_storage_manager.js"></script>
+	<script src="js/game_manager.js"></script>
+	<script src="js/application.js"></script>
+</body>
+</html>
